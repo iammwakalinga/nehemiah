@@ -1,0 +1,142 @@
+/* .card{
+  background-color: #34F6B;
+} */
+
+.skill{
+  transition: transform .3s;
+}
+.skill:hover{
+  transform: scale(1.03);
+}
+.image{
+  width: 100%;
+  float: left;
+}
+
+/* booking styles */
+.seat{
+  background-color: #C4C4C4;
+  height:20px;
+  width: 20px;
+  /* margin: 5px 15px; */
+}
+.ro{
+  display: flex;
+}
+.occupied{
+  background-color: black;
+}
+.selected{
+  background-color: crimson;
+}
+.seat:not(.occupied):hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* tables styles */
+.ta{
+  width: 100%
+}
+
+/* background items */
+.bck{
+  background-image: url(img/gradient.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 89.7vh;
+}
+.bck2{
+  background-image: url(img/gradblue.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.bck3{
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(img/stetho2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  /* color: black; */
+}
+.cb:not(.table-striped){
+  background-color: #6c757d;
+}
+
+
+
+
+/* trial */
+.card-body{
+  background-color: #6c757d;
+  /* opacity: 0.7; */
+  color: #000000;
+}
+.pw{
+  /* color: #f06f92; */
+  color: white;
+}
+.pb{
+  color: black;
+}
+.bg-light{
+  background-color: #6c757d;
+}
+/* additional colors */
+.fs{
+  font-size: 17px;
+  font-weight: 500;
+}
+.brd{
+  letter-spacing: 0.38em;
+  font-weight: bold;
+  font-stretch: expanded;
+}
+/* transparent card */
+.trans{
+  opacity: 0.5;
+}
+
+
+/* login and register */
+.coin{
+  padding: 60px 40px 50px 40px;
+  background-color: #6c757d;
+}
+.c1 li a{
+  color: #aaa;
+}
+.c li a{
+  color: #D4ECDD;
+}
+/* .bx{
+  margin-top: 15%;
+  transform: translateY(-15%);
+} */
+.bx p{
+  color: #aaa;
+}
+.bx{
+  position: absolute;
+  top: 45%;
+  /* left: 50%; */
+  transform: translateY(-45%);
+  text-align: center;
+}
+form{
+  background-color: #F1F7E7;
+}
+.form-container{
+  border-radius: 10px;
+  padding: 30px ;
+  box-shadow: 0 0 10px 0;
+}
+.bdbd{
+  padding-top: 20vh;
+}
+.bdbd2{
+  padding-top: 10vh;
+}
